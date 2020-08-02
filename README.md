@@ -56,7 +56,7 @@ that's not what the actual data would produce.
 
 ## The demonstration
 
-This project contains an HTML file ![rednoise.html](../../blob/master/rednoise.html) [(run)](https://raw.githubusercontent.com/robertdavidgraham/rednoise-stick/master/rednoise.html) containing JavaScript that draws the picture.
+This project contains an HTML file [rednoise.html](../../blob/master/rednoise.html) [(raw)](https://raw.githubusercontent.com/robertdavidgraham/rednoise-stick/master/rednoise.html) containing JavaScript that draws the picture.
 
 The algorithm is this.
 
