@@ -1,0 +1,59 @@
+<html>
+
+<body>
+    <canvas id="noise" width="400" height="200" style="border:1px solid #000000;">
+    </canvas>
+
+<script>
+
+var avg = [];
+var count = 0;
+var array_size = 100;
+
+function create_walk(array_size) {
+    var array = [];
+    
+    // Generate the random walk, starting from zero
+    var seed = 0;
+    for (i=0; i<array_size; i++) {
+        seed += Math.random() + Math.random() - 1.0;
+        array[i] = seed;
+    }
+    return array;
+}
+
+for (;;) {
+    // Create a random walk
+    var random_walk = create_walk(array_size);
+
+    // Test if it matches our temperature record
+    if (random_walk[array_size-1] < 0.8  ||  random_walk[array_size-7] > 0.1)
+        continue;
+
+    // If it matches, add to our averages
+    for (i in random_walk) {
+        if (avg[i])
+            avg[i] += random_walk[i];
+        else
+            avg[i] = random_walk[i];
+    }
+
+    // Keep going until we get 500 valid samples
+    count++;
+    if (count > 500)
+        break;
+}
+
+var c = document.getElementById("noise");
+var ctx = c.getContext("2d");
+
+ctx.lineWidth = 4;
+ctx.moveTo(0, 200 - 80);
+for (i in avg) {
+    ctx.lineTo(i*4, 200 - Math.trunc(100*avg[i]/count) - 80);
+}
+
+ctx.stroke();
+</script>
+</body>
+</html>
