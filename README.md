@@ -7,6 +7,7 @@ rise in the last 70 years. I suspect it's not that *data* that produces the hock
 shape, but the *methodology*. This project proves that this is possible -- not that it 
 actually happened, only that it was possible.
 
+
 ## Some methodology
 
 We have a fairly good record of recent temperatures, especially since we've been putting
@@ -55,7 +56,7 @@ that's not what the actual data would produce.
 
 ## The demonstration
 
-This project contains an HTML file containing JavaScript that draws the picture.
+This project contains an HTML file [rednoise.html](../../blob/master/rednoise.html) containing JavaScript that draws the picture.
 
 The algorithm is this.
 
@@ -75,4 +76,5 @@ This is not the methodology climate scientists use. The point is simply to show 
 can be due to methodology. The essential similarity is that the validity of a lot of climate
 proxies is measured by how well they match the known climate record of recent times.
 
+![hockeystick](/hockeystick.jpg)
 
