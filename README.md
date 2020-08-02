@@ -8,6 +8,11 @@ shape, but the *methodology*. This project proves that this is possible -- not t
 actually happened, only that it was possible to produce such graphs from reasonable, but flawed,
 methods, rather than from data.
 
+To reiterate: I believe our burning of fossil fuels is raising temperatures, and I support
+government policies that would mitigate this. It's just that while some science seems clear,
+other science seems to have been corrupted by the politics. Indeed, I would be surprised if
+such a politically contentious issue didn't corrupt science.
+
 
 ## Some methodology
 
