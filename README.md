@@ -5,7 +5,8 @@ probably has something to do with this, some of the science seems dodgy to me. O
 dodgy things is the "[hocky stick](https://en.wikipedia.org/wiki/Hockey_stick_graph)" graphs showing stable temperatures followed by an abrupt
 rise in the last 70 years. I suspect it's not that *data* that produces the hocky stick
 shape, but the *methodology*. This project proves that this is possible -- not that it 
-actually happened, only that it was possible.
+actually happened, only that it was possible to produce such graphs from reasonable, but flawed,
+methods, rather than from data.
 
 
 ## Some methodology
