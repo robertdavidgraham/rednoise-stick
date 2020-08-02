@@ -29,6 +29,8 @@ for (;;) {
     // Test if it matches our temperature record
     if (random_walk[array_size-1] < 0.8  ||  random_walk[array_size-7] > 0.1)
         continue;
+    if (random_walk[array_size-4] > random_walk[array_size-5])
+        continue;
 
     // If it matches, add to our averages
     for (i in random_walk) {
