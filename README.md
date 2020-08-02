@@ -82,5 +82,10 @@ This is not the methodology climate scientists use. The point is simply to show 
 can be due to methodology. The essential similarity is that the validity of a lot of climate
 proxies is measured by how well they match the known climate record of recent times.
 
+## Conclusion
+
+As you can see, through metholody alone, I can reproduce the famous Hockey Stick graph. The
+picture above matches closely with the picture below from the Wikipedia page on the subject.
+
 ![hockeystick](/hockeystick.jpg)
 
